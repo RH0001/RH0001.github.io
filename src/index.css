@@ -5,7 +5,7 @@
 .content-left {
 	float: left;
 	margin: 0px 10px;
-	width: 79%;
+	width: 70%;
 	height: 800px;
 	text-align: center;
 	background-color:rgba(000,000,000,0.5);
@@ -28,7 +28,7 @@
 .content-right{
 	float: right;
 	margin: 0px 10px;
-	width: 19%;
+	width: 20%;
 	height: 800px;
 	text-align: center;
 	background-color:rgba(000,000,000,0.5);
