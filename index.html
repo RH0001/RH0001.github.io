@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>my Project</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="src/index.css" />
+</head>
+
+<body>
+    <form class="js-form form">
+        <section class="content">
+            What Your Name? <br/>
+            <span class="input input--madoka">
+                <input class="input__field input__field--madoka" type="text" id="input-31" />
+                <label class="input__label input__label--madoka" for="input-31">
+                    <svg class="graphic graphic--madoka" width="100%" height="100%" viewBox="0 0 404 77" preserveAspectRatio="none">
+                        <path d="m0,0l404,0l0,77l-404,0l0,-77z"/>
+                    </svg>
+                </label>
+            </span>
+        </section>
+    </form>
+    
+    <section class="content">
+        <h1 class="js-greetings greetings"></h1>
+    </section>
+    
+    <div class="content-left">
+        <h2>To Do List!</h2>
+        <form class="js-toDoForm">
+            <section class="content-todo">
+                <span class="input input--hoshi">
+                  <input class="input__field input__field--hoshi" type="text" id="input-4" />
+                  <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-4">
+                    
+                  </label>
+                </span>
+              </section>
+        </form>
+        <div class="left-child">
+            <h1>Pending</h1>
+            <ul class="js-toDoPend list"></ul>
+        </div>
+        <div class="right-child">
+            <h1>Finished</h1>
+            <ul class="js-toDoFinish list"></ul>
+        </div>
+    </div>
+    <div class="content-right">
+        <div class="js-clock clock">
+            <h1>00:00</h1>
+        </div>
+
+        <div class="date">
+            <div class="js-month month">
+                <h1 class="month-h1">Month Loading ERROR</h1>
+            </div>
+            <div class="js-day day">
+                <h1>Day Loading ERROR</h1>
+            </div>
+        </div>
+
+        <span class="js-weather"></span>
+        
+        <div class="favorite">
+            <br>
+            <a href="https://github.com/">
+                <img src="images/github.png" alt="github" width="50">
+            </a>
+            <a href="https://mail.google.com/">
+                <img src="images/gmail.png" alt="Gmail" width="50">
+            </a>
+            <a href="https://mvnrepository.com/">
+                <img src="images/maven.png" alt="mavenRepository" width="50">
+            </a>
+            <a href="https://www.naver.com/">
+                <img src="images/naver.png" alt="naver" width="50">
+            </a>
+            <a href="https://timetreeapp.com/">
+                <img src="images/TimeTree.jpg" alt="TimeTree" width="50">
+            </a>
+        </div>
+    </div>
+    
+
+    <script src="src/clock.js"></script>
+    <script src="src/day.js"></script>
+    <script src="src/month.js"></script>
+    <script src="src/month.js"></script>
+    <script src="src/greeting.js"></script>
+    <script src="src/todo.js"></script>
+    <script src="src/background.js"></script>
+    <script src="src/weather.js"></script>
+</body>
+
+</html>
